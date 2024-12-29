@@ -1,0 +1,53 @@
+Create an arcade-style video game using only HTML, CSS, and JavaScript, without importing any external libraries or assets. You cannot use images or SVGs.
+
+Game Concept: A spaceship is traveling through a dense asteroid field. The player must navigate the spaceship to avoid colliding with asteroids while simultaneously shooting and destroying them.
+
+Specific Requirements:
+
+Visuals (Challenging due to no images/SVGs):
+
+Design an impressive and visually appealing game using only HTML elements and CSS styling. Aim for a retro-futuristic aesthetic.
+
+The spaceship should have animated propellant being expelled from its rear, with the animation varying based on movement (e.g., longer flames for forward thrust).
+
+The background should simulate a starfield, with stars at different depths moving at different parallax speeds to enhance the illusion of forward motion.
+
+Asteroids should vary in size, speed, and rotational velocity. They should have distinct, recognizable shapes despite being created with pure HTML/CSS.
+
+When an asteroid is destroyed, it should break into smaller fragments that also need to be avoided or shot.
+
+Create a visually distinct and animated laser beam effect when the spaceship shoots.
+
+
+Gameplay Mechanics (Added complexity):
+
+The spaceship should be controllable using keyboard input, allowing movement in all four directions (up, down, left, right) with smooth acceleration and deceleration. The controls should feel responsive and intuitive.
+
+The spaceship should have a limited number of lives, indicated visually on the screen.
+
+The player can shoot lasers to destroy asteroids. There should be a limited rate of fire (e.g., a cooldown period between shots) and a visual indicator (e.g., a recharging bar) for the weapon.
+
+Collisions between the spaceship and asteroids or asteroid fragments result in the loss of a life. The collision detection needs to be accurate, accounting for the irregular shapes of both the spaceship and asteroids.
+
+Implement a scoring system that increases with each destroyed asteroid, with larger asteroids or fragments awarding more points.
+
+The game should increase in difficulty over time, with asteroid frequency, speed, and size increasing as the player progresses.
+
+Implement a game over screen that displays the player's final score and allows them to restart the game.
+
+
+Code Structure (Challenging for a single file):
+
+All the code (HTML, CSS, and JavaScript) must be contained within a single HTML file.
+
+The JavaScript code should be well-organized, modular, and thoroughly commented to explain the logic and implementation.
+
+Ensure the game is performant and runs smoothly even with a large number of asteroids and fragments on the screen.
+
+
+Bonus Challenge:
+
+Add a "hyperspace" ability that allows the spaceship to teleport to a random location, but with a small chance of malfunctioning and placing the ship directly in the path of an asteroid. This should have a limited number of uses or a recharge time.
+
+
+Provide all the code within a single HTML file.
